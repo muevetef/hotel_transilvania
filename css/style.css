@@ -1,0 +1,72 @@
+/* Reset minimo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* UTILIDADES */
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* NAVBAR */
+#top-menu{
+    background-color:#333;
+    color: #fff;
+}
+
+#top-menu a {
+    color: #fff;
+}
+
+#top-menu h1{
+    float:left;
+    padding: 20px;
+}
+
+#top-menu ul{
+    list-style: none;
+    float: right;
+}
+
+#top-menu ul li {
+    float: left;
+}
+
+#top-menu ul li a{
+    padding:20px;
+    display: block;
+    text-align: center; 
+}
+
+#top-menu ul li a:hover {
+    background-color: #444;
+    color:#f7c08a;
+}
+
+/* SHOWCASE */
+#showcase{
+    height: 600px;
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+}
