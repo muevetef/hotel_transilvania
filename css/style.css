@@ -42,7 +42,9 @@ p{
     margin-top: 10px;
 
 }
-/* Colores para reutilizar */
+/* Colores para reutilizar */   
+
+
 .bg-dark{
     background: #333;
     color: #fff;
@@ -51,7 +53,7 @@ p{
     background: #fff;
     color: #333;
 }
-.bg_primary{
+.bg-primary{
     background: #f78616;
     color:#333;
 }
@@ -118,6 +120,7 @@ p{
 /* INfO section */
 #info{
     height: 320px;
+
 }
 #info .info-img{
     float: left;
@@ -130,4 +133,32 @@ p{
     float:right;
     width: 50%;
     min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
 }
+/* features */
+#features{
+    overflow: auto;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 50PX;
+    text-align: center;
+}
+.box i {
+    font-size: 5em;
+    margin-bottom: 6px;
+}
+
+/* Footer */
+#main-footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.crl{
+clear: both;
+}
+
+/* ABOUT */
