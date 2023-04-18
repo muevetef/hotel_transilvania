@@ -42,6 +42,19 @@ p{
     margin-top: 10px;
 
 }
+/* Colores para reutilizar */
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #fff;
+    color: #333;
+}
+.bg_primary{
+    background: #f78616;
+    color:#333;
+}
 
 .btn:hover{
     background-color: #f7c08a;
@@ -84,14 +97,14 @@ p{
 
 /* SHOWCASE */
 #showcase{
-    height: 600px;
+    height: 380px;
     background: url('../img/showcase.jpg') no-repeat center center/cover;
 }
 
 #showcase .showcase-content{
     color: #fff;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 #showcase .showcase-content h2{
@@ -102,3 +115,19 @@ p{
     font-size: 1.5em;
 }
 
+/* INfO section */
+#info{
+    height: 320px;
+}
+#info .info-img{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url('../img/photo-1.jpg') no-repeat;
+}
+
+#info .info-content{
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
