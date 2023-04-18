@@ -57,10 +57,25 @@ p{
     background: #f78616;
     color:#333;
 }
+.bg-secondary{
+    background: #f3b374;
+    color:#333;
+}
 
 .btn:hover{
     background-color: #f7c08a;
     color:#333;
+}
+
+/* paddings para reutilizar */
+.pd-1{
+    padding: 30px 0;
+}
+.pd-2{
+    padding: 20px;
+}
+.pd-3{
+    padding: 30px;
 }
 /* NAVBAR */
 #top-menu{
@@ -93,6 +108,10 @@ p{
 }
 
 #top-menu ul li a:hover {
+    background-color: #444;
+    color:#f7c08a;
+}
+#top-menu ul li a.activo{
     background-color: #444;
     color:#f7c08a;
 }
@@ -162,3 +181,43 @@ clear: both;
 }
 
 /* ABOUT */
+
+#about-info .info-left{
+    float:left;
+    width: 50%;
+}
+
+#about-info .info-right{
+    float:right;
+    width: 50%;
+}
+#about-info .info-right img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+/* Testimonial */
+#testimonial{
+    height: 500px;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+#testimonial h2 {
+    color:#fff;
+}
+
+#testimonial .opinion{
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    opacity: 0.9;
+
+}
+#testimonial .opinion img{
+ width: 100px;
+ float: left;
+ border-radius: 50%;
+ display: block;
+ margin: 10px;
+
+}
